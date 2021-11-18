@@ -27,15 +27,22 @@ public class albers extends PApplet {
 noStroke();
 background(51, 0, 0);
 
-int inside = color(204, 102, 0);
-int middle = color(204, 153, 0);
-int outside = color(153, 51, 0);
+// Default Values
+// color inside = color(204, 102, 0);
+// color middle = color(204, 153, 0);
+// color outside = color(153, 51, 0);
 
 // These statements are equivalent to the statements above.
 // Programmers may use the format they prefer.
 //color inside = #CC6600;
 //color middle = #CC9900;
 //color outside = #993300;
+
+// JK Testing Values
+int inside = 0xFFCC6600;
+int middle = 0xFFCC9900;
+int outside = 0xFF993300;
+
 
 pushMatrix();
 translate(80, 80);
